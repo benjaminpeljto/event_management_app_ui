@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://eventify-back-3b67a961e2f6.herokuapp.com/'
+export const BASE_URL = 'https://buyticket-ba-back.onrender.com/api/'
