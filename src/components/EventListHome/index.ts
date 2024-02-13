@@ -1,0 +1,1 @@
+export { default as EventListHome } from "./EventListHome";
