@@ -170,14 +170,16 @@ const NavBar = () => {
             >
               <Dashboard />
             </IconButton>
-          ) : (
+          ) : null}
+
+          {userToken && userType === "GUEST" ? (
             <IconButton
               onClick={handleTicketsIconClick}
               sx={{ color: "black" }}
             >
               <LocalActivity />
             </IconButton>
-          )}
+          ) : null}
 
           <IconButton
             sx={{
